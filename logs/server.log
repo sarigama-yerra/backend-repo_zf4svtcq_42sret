@@ -1,0 +1,26 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [152] using StatReload
+INFO:     Started server process [154]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:51724 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:32776 - "GET /api/creators/creator-1/posts?tier_level=2 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60992 - "GET /api/creators/creator-1/tiers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:32776 - "GET /api/creators/creator-1/posts?tier_level=2 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60992 - "GET /api/creators/creator-1/tiers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:32776 - "GET /api/creators/creator-1/posts?tier_level=2 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:32776 - "GET /api/creators/creator-1/posts?tier_level=2 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41470 - "OPTIONS /api/posts HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41470 - "POST /api/posts HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41470 - "GET /api/creators/creator-1/posts?tier_level=2 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41472 - "OPTIONS /api/creators/tiers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41472 - "POST /api/creators/tiers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:41472 - "OPTIONS /api/subscribe HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40340 - "POST /api/subscribe HTTP/1.1" 200 OK
+INFO:     172.20.0.1:40340 - "GET /api/creators/creator-1/posts?tier_level=2 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60640 - "POST /api/subscribe HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60640 - "GET /api/creators/creator-1/posts?tier_level=2 HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60640 - "OPTIONS /api/tokens/purchase HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60640 - "POST /api/tokens/purchase HTTP/1.1" 200 OK
+INFO:     172.20.0.1:60640 - "POST /api/tokens/purchase HTTP/1.1" 200 OK
